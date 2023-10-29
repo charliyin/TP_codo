@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" type="text/css" href="/css/contacto.css">   
+    </head>   
+    <body>
+        <div id="contenido">
+            <div id="contenido_sin_footer">
+                <header>
+                    <div id="logo"><img src="/img/Logo.JPG"></div>      
+                        <nav id="BotoneraPrincipal">
+                            <ul>
+                                <li><span><a href="/index.html">Home</a></span></li>
+                            </ul>
+                        </nav>
+                </header>
+                <main>
+                    <form id="formulario" action="" class="formulario">
+                        <label for="nombre" class="formulario__label">Nombre completo</label>
+                        <input name="nombre" required type="text" id="nombre" class="formulario__input" placeholder="Ingrese su nombre completo">
+                        <label for="correo" class="formulario__label">Correo electrónico</label>
+                        <input name="correo" required type="" id="correo"  class="formulario__input" placeholder="Ingrese su correo">
+                        <label for="asunto" class="formulario__label">Asunto</label>
+                        <input name="asunto" required type="texto" id="asunto"  class="formulario__input" placeholder="Título del motivo de contacto">
+                        <label for="mensaje" class="formulario__label">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" class="formulario__textarea" cols="30" rows="10" maxlength="400" placeholder="Escriba aquí su mensaje"></textarea>
+                        <button type="submit" class="btn primary full">Enviar mensaje</button>
+                    </form>
+                    <a href="mailto:c.a.r.c.h.u.s.s01@gmail.com" id="trucazo">Mail</a>
+                </main>
+            </div>
+            <footer id="Pie_de_página">
+                <h5>Trabajo integrador Codo a Codo - comision 25316 <br> Grupo nro 16</h5>
+            </footer> 
+        </div>
+        <script src="../js/contacto.js"></script>
+        <!-- <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script> -->
+    </body>
+</html>

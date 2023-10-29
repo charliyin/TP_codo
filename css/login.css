@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to bottom, #043c53, #FFFFFF);
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: Arial, sans-serif;
+
+}
+#contenido {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#contenido_sin_footer {
+    padding-bottom: 5rem;    /* altura de pie de página */
+  }
+
+header{
+    margin-bottom: 1em;
+    background-color: #e9e9e9;
+    color: rgb(136, 133, 133);
+    width: auto;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#logo{
+    width: 150px;
+    height: 68px;
+    float: left;
+    }
+h1 {
+    color: #f7fbf8;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+h2{
+    color: #d9fadb;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5{
+    color: #dbd5e6;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    width: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+#imagen {
+    margin: 1em;
+    float: none;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.BusquedaUsuario{
+    display: flex;
+    background-color: #e0e5eb;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center;    
+}
+
+#BotoneraPrincipal {
+    width: auto;
+    height: 68px;
+    text-decoration: none;
+    }
+
+#BotoneraPrincipal ul{
+    margin: 0;
+    padding: 0.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#085524;
+    }
+
+#BotoneraPrincipal li {
+    display: inline-block;
+    padding: 1em;  
+    font-weight: bold;
+    }
+
+#BotoneraPrincipal a{
+    color: #001608;
+    text-decoration:  none;
+    background-color:rgb(248, 244, 244);  
+    }
+
+#BotoneraPrincipal a:hover {
+    background-color:#c0c0c0 ;
+    color: #013011;
+}
+
+#Pie_de_página{
+    text-align: center;
+    background-color: rgb(77, 110, 162);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0.5em;
+    height: 5rem; /* altura de pie de página */
+}
+    
+/*Aquí comienza el responsive*/
+/*Pantallas */
+@media (max-width: 639px){    
+    h1{
+        font-size:larger;
+    }
+    
+    h2{
+        font-size:larger;
+    }
+
+    input[type=text] {   
+        font-size: 12px;
+    }
+        
+    #Pie_de_página{
+        font-size:smaller;
+    }
+
+    #imagen {
+        float: none;
+        width: 80%;
+        display: flex;
+        margin: auto;
+        padding: 1em 0;
+    }
+    }
+
+    @media (min-width: 640px) and (max-width: 1007px){
+        #imagen {
+            float: none;
+            width: 80%;
+            display: flex;
+            margin: auto;
+            padding: 1em 0;
+        }
+    }
+
+        @media (min-width: 1008px) and (max-width: 1357px){
+            #imagen {
+                float: none;
+                width: 60%; 
+                display: flex;
+                margin: auto;
+                padding: 1em 0;
+        }
+    }
+
+    

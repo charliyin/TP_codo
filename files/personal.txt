@@ -1,0 +1,14 @@
+{
+  "personal": [
+    {
+      "apellido": "Sanchez",
+      "nombre": "Pepe",
+      "nroLegajo": "1234"
+    },
+    {
+      "apellido": "Muñoz",
+      "nombre": "Ariel",
+      "nroLegajo": "5678"
+    }
+  ]
+}

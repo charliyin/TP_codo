@@ -1,0 +1,12 @@
+{
+  "usuarios": [
+    {
+      "usuario": "a@a.com",
+      "contrasenia": "1234"
+    },
+    {
+      "usuario": "b@b.com",
+      "contrasenia": "456"
+    }
+  ]
+}
